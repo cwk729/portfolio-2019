@@ -99,6 +99,25 @@
   </section>
 
   <style>
+      .project-slider {
+        height: 100%;
+        min-height: 400px;
+      }
+      .project-slider .slick-list,
+      .project-slider .slick-track,
+      .project-slider .slick-slide,
+      .project-slider .slick-slide > div {
+        height: 100%;
+      }
+      .project-slider .image-bg {
+        height: 100%;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>
+
+  <style>
     .intro-section {
       padding: 10rem 0 0;
     }
@@ -207,7 +226,10 @@
       <!-- Project Three Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          <div class="slider project-slider">
+            <div class="image-bg" style="background-image:url(img/demo-image-01.jpg);"></div> 
+            <div class="image-bg" style="background-image:url(img/demo-image-02.jpg);"></div>
+          </div>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
@@ -226,9 +248,9 @@
       <!-- Project Four Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <div class="slider">
-            <div style="background-image:url(img/demo-image-01.jpg);"></div> 
-            <div style="background-image:url(img/demo-image-02.jpg);"></div>
+          <div class="slider project-slider">
+            <div class="image-bg" style="background-image:url(img/demo-image-01.jpg);"></div> 
+            <div class="image-bg" style="background-image:url(img/demo-image-02.jpg);"></div>
           </div>
         </div>
         <div class="col-lg-6 order-lg-first">

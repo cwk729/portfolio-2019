@@ -138,10 +138,11 @@
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Bungee Shade', cursive;
+  font-family: 'Sulphur Point', sans-serif;
   font-size: 80%;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: .15rem;
+  border-radius:40px;
   border: 0;
 }
 

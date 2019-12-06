@@ -38,6 +38,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
+  <link href="css/lightbox.min.css" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="css/slick.css" />
 </head>
@@ -57,13 +58,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Who</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#intro">Highlights</a>
+            <a class="nav-link js-scroll-trigger" href="#intro">Highlight</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Work</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
@@ -149,15 +150,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="mb-4">Highlights</h2>
-          <p>Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download
-            the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open
-            source, and you can use it for any purpose, personal or commercial.</p>
-          <div class="intro-video">
-            <iframe width="100%" src="https://www.youtube.com/embed/Qo4JIT8jMtI" frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <h2 class="mb-4">Highlight</h2>
+          <p>My works study the people, the surroundings and the lives.
+              They are infused with new colours.</p>
+          
           <div class="slider">
             <div><img src="img/slider/1.jpg"></div>
             <div><img src="img/slider/2.jpg"></div>
@@ -190,7 +186,8 @@
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          <a href="img/demo-image-01.jpg" data-lightbox="image-1" data-title="Image 1 caption">
+          <img class="img-fluid" src="img/demo-image-01.jpg" alt=""></a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
@@ -450,6 +447,7 @@
 </style>
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="js/slick.min.js"></script>

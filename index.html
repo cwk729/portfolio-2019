@@ -154,13 +154,17 @@
         <div class="col-lg-8 mx-auto">
           <h2 class="mb-4 text-purple">Highlight</h2>
         
-          
           <div class="slider">
-            <div><img src="img/slider/blue.jpg"></div>
-            <div><img src="img/slider/market.jpg"></div>
-            <div><img src="img/slider/red.jpg"></div>
+            <a href="img/slider/blue.jpg" data-lightbox="slider" data-title="Raining Blues, 2018, Watercolour">
+              <img src="img/slider/blue.jpg"></a>
+
+            <a href="img/slider/market.jpg" data-lightbox="slider" data-title="The Market, 2018, Watercolour">
+              <img src="img/slider/market.jpg"></a>
+
+            <a href="img/slider/red.jpg" data-lightbox="slider" data-title="Lunar New Year, 2018, Watercolour">
+              <img src="img/slider/red.jpg"></a>
           </div>
-        </div>
+        </div></a>
         
       </div>
     </div>
@@ -173,7 +177,7 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters  mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <a href="img/green.jpg" data-lightbox="market" data-title="Image 1 caption">
+          <a href="img/green.jpg" data-lightbox="green" data-title="The Calamondin, 2018, watercolor">
           <img class="img-fluid mb-3 mb-lg-5" src="img/green.jpg" alt=""></a>
         </div>
         <div class="col-xl-4 col-lg-5">
@@ -192,7 +196,8 @@
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/purple1.jpg" alt="">
+          <a href="img/purple1.jpg" data-lightbox="slider" data-title="Drown in the Moon, 2018, Oil pastel and coloured paper">
+          <img class="img-fluid" src="img/purple1.jpg" alt=""></a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-purplegradient text-center project">
@@ -216,8 +221,13 @@
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
           <div class="slider project-slider">
-            <div class="image-bg" style="background-image:url(img/purple2.jpg);"></div> 
-            <div class="image-bg" style="background-image:url(img/yellow.jpg);"></div>
+              <a href="img/purple2.jpg" data-lightbox="slider" data-title="Bowling on the way, 2018, Oil pastel and coloured paper">
+              <div class="image-bg" style="background-image:url(img/purple2.jpg);" alt=""></div> 
+              </a>
+
+              <a href="img/yellow.jpg" data-lightbox="slider" data-title="Head in the Clouds, 2018, Oil pastel and coloured paper">
+                <div class="image-bg" style="background-image:url(img/yellow.jpg);" alt=""></div>
+              </a>
           </div>
         </div>
         <div class="col-lg-6 order-lg-first">
@@ -416,6 +426,12 @@
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
   <script src="js/lightbox.min.js"></script>
+  <script>
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+      })
+  </script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="js/slick.min.js"></script>

@@ -278,7 +278,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: rgba(72,49,129);
 }
 
 .bg-black {
@@ -286,11 +286,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color:  rgba(72,49,129) !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: rgba(72,49,129) !important;
 }
 
 footer {
